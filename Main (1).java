@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Qualquer subclasse pode ser usada no lugar de Produto, sem erro.
+        // Qualquer subclasse pode ser usada no lugar de Produto.
         List<Produto> carrinho = List.of(
             new Pizza("calabresa", 45.0),
             new Hamburguer("artesanal", 30.0),
